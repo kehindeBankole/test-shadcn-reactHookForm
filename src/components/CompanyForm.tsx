@@ -42,7 +42,7 @@ const FormSchema = z.object({
     })
     .min(1, { message: 'Please select number of employees' }),
   description: z.string().min(3, {
-    message: 'Website must be at least 3 characters.',
+    message: 'Description must be at least 3 characters.',
   }),
 });
 
